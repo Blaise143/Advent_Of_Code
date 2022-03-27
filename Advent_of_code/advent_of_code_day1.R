@@ -6,7 +6,7 @@ library(tidyverse)
 get_next <- function(some_list){
   some_list > lag(some_list)
 }
-
+ 
 data <- Advent_day_1
 
 ## Getting the Number of depth increases
